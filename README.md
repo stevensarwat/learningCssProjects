@@ -5,7 +5,7 @@ This repo contains a collection of projects I built while learning CSS as a begi
 
 This repository serves as a portfolio of my early CSS learning journey. The projects range from simple static web pages to more complex layouts, demonstrating my progress in mastering CSS properties, Flexbox, Grid, animations, and responsive design.
 
-##Projects
+## Projects
 Here’s a list of the projects included in this repository:
 
 1. Basic Landing Page
