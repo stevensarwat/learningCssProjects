@@ -1,18 +1,18 @@
 # learningHTMLCSSJSProjects
 
-HTML, CSS, JS Learning Projects
-This repo contains a collection of projects I built while learning HTML, CSS, JS as a beginner. Each project showcases fundamental HTML, CSS, JS concepts and techniques, helping me understand styling, layouts, and responsive design.
+This repo contains a collection of projects I built while learning CSS as a beginner. Each project showcases fundamental CSS concepts and techniques, helping me understand styling, layouts, and responsive design.
 
 This repository serves as a portfolio of my early HTML, CSS, JS learning journey. The projects range from simple static web pages to more complex layouts, demonstrating my progress in mastering HTML, CSS, JS properties, Flexbox, Grid, animations, and responsive design.
 
-##Projects
+## Projects
+
 Here’s a list of the projects included in this repository:
 
 1. Basic Landing Page
 2. Animation Gallery
 3. Small Tasks
 
-How to Use
+## How to Use
 
 Clone the repository to your local machine:git clone https://github.com/stevensarwat/learningHTML, CSS, JSProjects.git
 
