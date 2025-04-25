@@ -1,6 +1,5 @@
 # learningCssProjects
 
-CSS Learning Projects
 This repo contains a collection of projects I built while learning CSS as a beginner. Each project showcases fundamental CSS concepts and techniques, helping me understand styling, layouts, and responsive design.
 
 This repository serves as a portfolio of my early CSS learning journey. The projects range from simple static web pages to more complex layouts, demonstrating my progress in mastering CSS properties, Flexbox, Grid, animations, and responsive design.
@@ -12,7 +11,7 @@ Here’s a list of the projects included in this repository:
 2. Animation Gallery
 3. Small Tasks
 
-How to Use
+## How to Use
 
 Clone the repository to your local machine:git clone https://github.com/stevensarwat/learningCssProjects.git
 
