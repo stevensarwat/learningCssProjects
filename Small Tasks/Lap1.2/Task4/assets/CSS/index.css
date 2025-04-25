@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+thead th{
+    color: white;
+    background-color:blue;
+    height: 50px;
+}
+tbody td{
+    border: 2px solid black; ;
+    height: 50px;
+}

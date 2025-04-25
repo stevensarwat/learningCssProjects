@@ -1,0 +1,235 @@
+:root {
+    --pageMargin: 10%
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    margin-left:var(--pageMargin) ;
+    margin-right:var(--pageMargin) ;
+}
+
+.firstSection{
+    padding: 15px;
+    background-color: azure;
+}
+
+.mainMargin{
+    overflow: visible;
+    margin-left:var(--pageMargin) ;
+    margin-right:var(--pageMargin) ;
+}
+.firstSection > .mainMargin{
+    overflow: auto;
+}
+
+.logoContainer{
+    float: left;
+}
+.logoImg, .logoText{
+    vertical-align: middle;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+li{
+    display: inline;
+    margin-left: 50px;
+}
+a{
+    color: black;
+    font-size: 25px;
+}
+.links{
+    float: right;
+}
+@media (max-width:660px) {
+    .links{
+        display: none;
+    }
+}
+.mainText{
+    float: left;
+    clear: both;
+}
+.textAndImage{
+    margin-top: 15%;
+}
+.welcomeText{
+    width: 360px;
+    font-size: 50px;
+}
+.mainDescription{
+    width: 450px;
+    margin-top: 7%;
+}
+.mainImg{
+    width: 410px;
+    margin-left: 15%;
+    position: absolute;
+}
+.mainButtons{
+    margin-top: 50px;
+}
+button{
+    width: 125px;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    border: 0;
+    background-color: orangered;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.blackButton{
+    background-color:black;
+}
+
+.cards{
+    margin-top: 80px;
+    text-align: center;
+}
+.card{
+    border: 1px solid gray;
+    border-style: groove;
+    border-radius: 4px;
+    width: 25%;
+    height: 230px;
+    padding: 10px;
+    margin-right: 50px;
+    display: inline-block;
+    overflow: hidden;
+}
+.card:hover{
+    border-top: 10px solid orangered;
+}
+
+.item{
+    width: 50px;
+}
+.cardsTitle{
+    font-weight: bold;
+}
+.cardsSubTitle{
+    margin-bottom: 40px;
+}
+.readMore{
+    margin-top: 50px;
+}
+.FreshFruitsSection{
+    margin-top: 80px;
+}
+.FreshFruitsSection > .title, .FreshFruitsSection > .subTitle{
+    text-align: center;
+}
+.FreshFruitsSection > .subTitle{
+    margin-bottom: 60px;
+}
+.product > p{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+} 
+.product{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+}
+.productImage{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.veryTesting{
+    /*not understanding*/
+    width: 100vw; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* end */
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../images/tasty.png);
+    background-position: center;
+    background-size: cover;
+}
+.veryTesting>h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 150px;
+}
+.Section3{
+    margin-top: 80px;
+    text-align: center;
+}
+.Section3> p{
+margin-bottom: 40px;
+}
+.sec4 > img{
+    position: absolute;
+    right: 0;
+    width: 160px;
+}
+form > input, form >textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+footer{
+    margin-top:7%;
+    margin-bottom:7%;
+    vertical-align: top;
+}
+footer h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.list{
+    display: inline-block;
+    width: 20%;
+    margin-right: 4%;
+    vertical-align: top;
+
+}
+footer input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.Subscribe{
+    margin-top: 20px;
+}
+footer button{
+    font-size: 20px;
+    width: 80%;
+}
+.copywrite{
+    width: 100vW;
+    background-color:rgb(226, 226, 226);
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:40px;
+}

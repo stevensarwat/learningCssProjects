@@ -1,0 +1,34 @@
+header{
+    padding: 10vh 10vh;
+}
+article{
+    display: block;
+    width: 100%;
+    margin:20px auto ;
+}
+section{
+    margin: 2vw 2vw;
+}
+.imgdiv{
+    text-align: center;
+    width: auto;
+}
+.imgdiv + p{
+    margin: auto;
+
+}
+
+hr{
+    margin: 40px 50px;
+}
+.sec2__div{
+    width: 100%;
+    display: block;
+}
+.sec2__img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.6;
+}

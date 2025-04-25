@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bImg{
+width: 100px;
+height: 100px;
+object-fit: cover;
+box-shadow: 3px 3px 5px 0px rgba(195,14,240,0.75);
+-webkit-box-shadow: 3px 3px 5px 0px rgba(195,14,240,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(195,14,240,0.75);
+border: 2px blue solid;
+transition: all 2s;
+}
+.shadw{
+    width: 80vw;
+    height: 90vh;
+    margin: 20px auto;
+    border: 5px yellow;
+    border-style: groove;
+    outline: 1px black solid;
+    border-radius: 2%;
+    box-shadow: 11px 12px 55px 2px rgba(195,14,240,0.85);
+-webkit-box-shadow: 11px 12px 55px 2px rgba(195,14,240,0.85);
+-moz-box-shadow: 11px 12px 55px 2px rgba(195,14,240,0.85);
+transition: all 2s;
+
+}
+.main{
+    height: 100%;
+    border-radius: 2%;
+    padding: 20px;
+    box-shadow: 16px -1px 79px 9px rgba(14,240,103,0.85) inset;
+    -webkit-box-shadow: 16px -1px 79px 9px rgba(14,240,103,0.85) inset;
+    -moz-box-shadow: 16px -1px 79px 9px rgba(14,240,103,0.85) inset;
+    display: flex;
+    align-content: space-between;
+    align-self: center;
+}
+.mianText{
+    flex: 1;
+    display: flex;
+    border: 4px black solid;
+    border-radius: 2%;
+    padding: 5px;
+    margin-right: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 16px -1px 79px 9px yellowgreen inset;
+    -webkit-box-shadow: 16px -1px 79px 9px yellowgreen inset;
+    -moz-box-shadow: 16px -1px 79px 9px yellowgreen inset;
+}
+.Vline{
+    border: 1px red solid;
+    margin: 1px 5px;
+}
+.mainGallary{
+    flex: 2;
+    border: 4px blue solid;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    border-radius: 2%;
+    padding: 25px;
+    padding-left: 60px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 16px -1px 79px 9px rgba(14,240,103,0.85) inset;
+    -webkit-box-shadow: 16px -1px 79px 9px rgba(14,240,103,0.85) inset;
+    -moz-box-shadow: 16px -1px 79px 9px rgba(14,240,103,0.85) inset;
+}
+p{
+    text-align: center;
+}
+.sp{
+    animation: changeTextShadow 2s;
+    background-color:red;
+}
+
+.shadw:hover{
+    animation: changeShadow 1s;
+    
+    transform: skew(10deg);
+}
+.bImg:hover{
+    transform: scale(1.5);
+}
+.bImg:active {
+    transform: scale(5);
+}
+.mianText:hover p{
+    text-decoration: underline;
+}
+.sp:hover{
+    text-shadow: 6px 6px 6px yellow;
+    animation: none;
+}
+.sp:active{
+    background: #339b2a;
+    background-color: linear-gradient(90deg,rgba(51, 155, 42, 1) 0%, rgba(87, 102, 199, 1) 50%, rgba(96, 237, 83, 1) 100%);
+    }
+.shadw:active {
+    transform: scale(0.5);
+}
+
+@keyframes changeShadow{
+25%{
+    box-shadow: 11px 12px 55px 2px blue;
+}
+50%{
+    box-shadow: 11px 12px 55px 2px green;
+    
+}
+75%{
+    box-shadow: 11px 12px 55px 2px yellow;
+}
+100%{
+    box-shadow: 11px 12px 55px 2px green;
+
+}
+}
+
+@keyframes changeTextShadow{
+    0%{
+        background-color:transparent;
+    }
+    100% {
+        background-color:red;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .shadw:hover{
+        animation: changeShadow 1s;
+        
+        transform: none;
+    }
+    .bImg{
+        rotate: 30deg;
+        box-shadow: 4px 4px 6px 2px blue;
+    }
+    .bImg:hover{
+        border-style: double;
+        rotate: 0deg;
+    }
+    .bImg:active{
+        border-style: dashed;
+        box-shadow: 4px 4px 6px 2px red;
+        transform: scale(1.5);
+    }
+}

@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    padding: 30vh 30vh;
+    height: 100vh;
+    color: white;
+    background-image: url(images/pexels-5455.jpg);
+    background-size: cover;
+    line-height: 23px;
+}
+header>button{
+    border-radius: 10px;
+    border: 1px solid white ;
+    color: white;
+    font-size: larger;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+header>button:hover{
+    background-color: orangered;
+}
+header > h2{
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+header > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section{
+    margin: 10vw 10vw;
+}
+.sec1>h2{
+    font-size: xx-large;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    border-bottom: 2px lightskyblue solid;
+}
+article{
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+.imgdiv{
+    position: relative;
+    width: fit-content;
+}
+.sec1__img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: height 1s;
+}
+.social{
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 0;
+    transition: display 1s,height 1s;
+}
+.fab{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin: 5px auto;
+}
+.fab:hover{
+    background-color: white;
+    border-color: white;
+    color: orangered;
+}
+.social > a {
+    display: none;
+}
+.imgdiv:hover > .social > a {
+    display: inline-block;
+}
+.imgdiv:hover > .social, .social:hover{
+    height: 50px;
+}
+.imgdiv:hover > .sec1__img {
+    height: 220px;
+}
+article > p{
+    width: 300px;
+}
+hr{
+    margin: 40px 200px;
+}
+.sec2{
+    text-align: center;
+}
+.sec2__div{
+    width: 22%;
+    display: inline-block;
+}
+.sec2__img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.sec2__div>p{
+    opacity: 0;
+}
+.sec2__div:hover .sec2__img{
+    opacity: 1;
+}
+.sec2__div:hover p{
+    opacity: 1;
+}

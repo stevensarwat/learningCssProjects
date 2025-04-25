@@ -1,0 +1,61 @@
+.header, .footer{
+    background-color: greenyellow;
+}
+.header > img{
+    display: inline-block;
+    position:absolute;
+    right: 50px;
+    top: 20px;
+}
+.header > h1{
+    display: inline-block;
+    margin-left: 30px;
+}
+form >h2{
+    margin-top: -2px;
+}
+form > img{
+    margin-top: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.two{
+    width: 40%;
+}
+.three{
+    width: 20%;
+}
+.one{
+    width: 90%;
+}
+
+.one > input{
+    width: 62%;
+}
+.inputDiv{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.inputDiv > label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+.inputDiv > input{
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    max-width: 85%;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 2px gray ;
+}
+.inputDiv >select{
+    width: 90%;
+}
+hr{
+    border-top: 1px dashed;
+}
+.footer{
+    padding: 10px;
+}

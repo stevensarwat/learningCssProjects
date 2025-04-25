@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+img {
+    width: 150px;
+}
+div{
+    display: inline-block;
+}
+div > p, .brownP{
+    color: brown;
+}
+h1, h2, div > p + p {
+    color: gold;
+}
+
+.container{
+    padding: 5px;
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+}

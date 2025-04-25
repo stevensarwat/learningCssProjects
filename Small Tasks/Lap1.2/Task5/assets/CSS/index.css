@@ -1,0 +1,28 @@
+
+img {
+    width: 130px;
+}
+.md{
+    margin: 50PX;
+    padding: 50PX;
+    border: 10px inset black;
+}
+.cF{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.md div {
+    background-color: chocolate;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.d1 p, d1 img{
+    display: inline-block;
+}
+.d3{
+    padding: 60px;
+}
+.d1, .d2, .d4{
+    text-align: center;
+}
